@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DogsApp</string>
+    <string name="image_thumbnail">Miniatura zdjęcia</string>
+    <string name="gallery_image">Podgląd zdjęcia</string>
+    <string name="gallery">Z galerii</string>
+    <string name="capture">Zrób zdjęcie</string>
+</resources>

@@ -1,0 +1,55 @@
+# Android build
+/build/
+/app/build/
+/.gradle/
+/local.properties
+
+# Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea/**
+
+# Keystore files (secure signing)
+*.jks
+*.keystore
+
+# Log/Cache files
+*.log
+*.tmp
+.cache/
+captures/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IntelliJ
+out/
+
+# Unit test reports
+/test-results/
+*/build/test-results/
+*/build/reports/
+
+# Kotlin (if used in part)
+*.kotlin_module
+
+# Node modules (if you ever add JS/ReactNative)
+node_modules/
+
+# Others
+*.swp
+*.swo
+
+# Crashlytics/Firebase
+crashlytics-build.properties
+fabric.properties
+
+# Generated JSON
+*.json
+
+# Misc
+*.apk
+*.ap_

@@ -1,0 +1,39 @@
+[versions]
+agp = "8.9.2"
+kotlin = "2.0.21"
+coreKtx = "1.10.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+material = "1.10.0"
+activity = "1.8.0"
+constraintlayout = "2.1.4"
+
+cameraX = "1.4.1"
+roundedImageView = "2.3.0"
+media3Exoplayer = "1.7.1"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+
+androidx-camera-core = {group = "androidx.camera", name = "camera-core", version.ref = "cameraX"}
+androidx-camera-camera2 = {group = "androidx.camera", name = "camera-camera2", version.ref ="cameraX"}
+androidx-camera-lifecycle = {group ="androidx.camera", name = "camera-lifecycle", version.ref ="cameraX"}
+androidx-camera-video = {group ="anddroidx.camera", name = "camera-video", version.ref = "cameraX"}
+androidx-camera-view = {group ="androidx.camera", name="camera-view", version.ref ="cameraX"}
+rounded-image-view = {group ="com.makeramen", name = "roundedimageview", version.ref = "roundedImageView"}
+androidx-media3-exoplayer = { group = "androidx.media3", name = "media3-exoplayer", version.ref = "media3Exoplayer" }
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
