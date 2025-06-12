@@ -17,7 +17,7 @@ This project is a dog breed classifier consisting of:
 
 ## 🚀 Features
 
-- Upload images via API or Android app
+- Upload images via Android app
 - Predicts dog breed using a deep learning model
 - Easy to run locally or deploy
 
